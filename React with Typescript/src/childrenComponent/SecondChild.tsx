@@ -1,10 +1,8 @@
-import React from 'react'
 
-type Props = {}
 
-const SecondChild = (props: Props) => {
+const SecondChild = () => {
   return (
-    <div>SecondChild</div>
+    <div>Second Child</div>
   )
 }
 

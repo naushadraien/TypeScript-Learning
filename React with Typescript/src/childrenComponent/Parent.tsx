@@ -1,9 +1,11 @@
 
-type Props = {}
 
-const Parent = (props: Props) => {
+const Parent = ({children}:{children: React.ReactNode}) => {
   return (
-    <div>Parent</div>
+    <div>
+        <h1>This is Parent Component</h1>
+        <p>{children}</p>
+    </div>
   )
 }
 
